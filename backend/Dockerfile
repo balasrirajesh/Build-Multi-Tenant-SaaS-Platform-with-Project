@@ -15,5 +15,5 @@ COPY . .
 # Expose port
 EXPOSE 5000
 
-# Run migrations and start server
-CMD ["sh", "-c", "npm run migrate && npm start"]
+# Start server
+CMD ["npm", "start"]
